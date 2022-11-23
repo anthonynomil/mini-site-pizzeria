@@ -1,0 +1,30 @@
+.App {
+  font-family: 'Roboto';
+}
+
+.appbar_brand {
+  text-decoration: none;
+}
+
+.home_img {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+.home_bigText {
+  padding: 0 100px;
+}
+
+.pizza_menu {
+  padding: 100px 0;
+}
+
+.MuiCardMedia-img {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1249px) {
+  .home_bigText {
+    padding: 0;
+  }
+}
